@@ -1,0 +1,58 @@
+//-Pug ile yazılan kod
+
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Hello Pug!
+  body
+    include title.pug
+    |Phone : 
+    =phone 
+    hr
+    //-Değişken tanımlama
+    - const jobTitle='Stark - Williamson'
+    - const jobDesc='Corporate'  
+    =jobTitle
+    br
+    |Job Desc : #{jobDesc.toUpperCase()}
+    hr
+    - var number=10;
+    if !number
+      | Number varible doesnt exist...
+    else if number===10
+      | The number is 10
+    else 
+      | The number isnt 10
+    hr
+    //-Loops
+    ul
+      each val in[1,2,3,4,5]
+        li=val
+    hr
+    ul
+      each val,index in['zero','one','two']
+        li=index+' : '+val
+    hr
+    - var n=0;
+    ul
+      while n < 4
+        li=n++
+    hr 
+    br
+    | Hello PUG in body....
+    h1 Hello World!
+    h2 Hello World!
+    span(style="color:white;background-color:red")
+      |This is span 
+    div(style="background-color:yellow")
+      |Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, natus temporibus sed earum rem optio harum id ad, mollitia fuga, sequi quibusdam quidem. Dignissimos saepe fugiat ipsam, cupiditate soluta ipsum?
+    b Name : 
+    |#{name}
+
+    hr
+    //- Başka bir sayfayı burada çağırdık
+    include footer.pug 
+    
+

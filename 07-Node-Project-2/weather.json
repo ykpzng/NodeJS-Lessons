@@ -1,0 +1,605 @@
+[
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 11,
+      "city": "Waumandee",
+      "latitude": "-54.800577",
+      "longitude": "-35.919683"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 6,
+      "city": "Jacksonburg",
+      "latitude": "-64.960056",
+      "longitude": "-96.261976"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 4,
+      "city": "Orovada",
+      "latitude": "-70.875603",
+      "longitude": "-40.242213"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 15,
+      "city": "Dundee",
+      "latitude": "70.355693",
+      "longitude": "-97.303889"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 7,
+      "city": "Calvary",
+      "latitude": "-74.52873",
+      "longitude": "32.433137"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 9,
+      "city": "Dotsero",
+      "latitude": "29.496113",
+      "longitude": "156.248584"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 0,
+      "city": "Tetherow",
+      "latitude": "2.322837",
+      "longitude": "-24.443424"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 11,
+      "city": "Norvelt",
+      "latitude": "-47.735864",
+      "longitude": "153.916708"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 5,
+      "city": "Singer",
+      "latitude": "-73.688121",
+      "longitude": "131.179237"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 17,
+      "city": "Tedrow",
+      "latitude": "-83.790368",
+      "longitude": "-65.71373"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 10,
+      "city": "Neibert",
+      "latitude": "-43.3997",
+      "longitude": "65.941146"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 1,
+      "city": "Mapletown",
+      "latitude": "-74.656336",
+      "longitude": "-123.745634"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 17,
+      "city": "Selma",
+      "latitude": "3.470187",
+      "longitude": "-169.102821"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 20,
+      "city": "Grill",
+      "latitude": "62.508739",
+      "longitude": "85.987905"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 20,
+      "city": "Wanship",
+      "latitude": "-83.03421",
+      "longitude": "60.524391"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 4,
+      "city": "Cherokee",
+      "latitude": "38.020307",
+      "longitude": "128.239219"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 15,
+      "city": "Worcester",
+      "latitude": "-44.7175",
+      "longitude": "147.889929"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 0,
+      "city": "Whitehaven",
+      "latitude": "28.342241",
+      "longitude": "-115.264245"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 18,
+      "city": "Salvo",
+      "latitude": "70.920763",
+      "longitude": "116.659945"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 4,
+      "city": "Marne",
+      "latitude": "-45.591052",
+      "longitude": "141.387333"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 19,
+      "city": "Kula",
+      "latitude": "46.085031",
+      "longitude": "-147.815628"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 12,
+      "city": "Berwind",
+      "latitude": "-78.674541",
+      "longitude": "94.184495"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 3,
+      "city": "Odessa",
+      "latitude": "-77.697609",
+      "longitude": "172.042587"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 9,
+      "city": "Curtice",
+      "latitude": "-27.412467",
+      "longitude": "-12.118842"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 5,
+      "city": "Tuttle",
+      "latitude": "-74.368701",
+      "longitude": "-155.871628"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 3,
+      "city": "Courtland",
+      "latitude": "-72.470892",
+      "longitude": "140.442542"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 8,
+      "city": "Gorham",
+      "latitude": "-11.853407",
+      "longitude": "-86.439734"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 10,
+      "city": "Barronett",
+      "latitude": "89.246651",
+      "longitude": "116.034064"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 19,
+      "city": "Ribera",
+      "latitude": "-83.415487",
+      "longitude": "-141.057804"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 20,
+      "city": "Weogufka",
+      "latitude": "-30.115149",
+      "longitude": "-118.712086"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 3,
+      "city": "Wyano",
+      "latitude": "-36.414119",
+      "longitude": "84.244618"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 18,
+      "city": "Cataract",
+      "latitude": "10.628023",
+      "longitude": "-18.400947"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 5,
+      "city": "Glenville",
+      "latitude": "16.365548",
+      "longitude": "-134.192494"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 8,
+      "city": "Dola",
+      "latitude": "-60.840974",
+      "longitude": "-169.475954"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 14,
+      "city": "Brutus",
+      "latitude": "29.220592",
+      "longitude": "23.476822"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 1,
+      "city": "Valle",
+      "latitude": "67.334867",
+      "longitude": "-44.359343"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 0,
+      "city": "Ripley",
+      "latitude": "22.541929",
+      "longitude": "-90.847283"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 15,
+      "city": "Berlin",
+      "latitude": "53.294611",
+      "longitude": "-34.628268"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 5,
+      "city": "Farmers",
+      "latitude": "-71.714862",
+      "longitude": "132.072522"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 18,
+      "city": "Salunga",
+      "latitude": "61.627432",
+      "longitude": "142.718495"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 13,
+      "city": "Rowe",
+      "latitude": "60.982748",
+      "longitude": "113.468584"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 10,
+      "city": "Hartsville/Hartley",
+      "latitude": "15.864013",
+      "longitude": "-19.873865"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 1,
+      "city": "Centerville",
+      "latitude": "30.093876",
+      "longitude": "157.478106"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 11,
+      "city": "Lookingglass",
+      "latitude": "73.067636",
+      "longitude": "-124.73273"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 18,
+      "city": "Maplewood",
+      "latitude": "50.199819",
+      "longitude": "17.651537"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 3,
+      "city": "Bentley",
+      "latitude": "62.395818",
+      "longitude": "-155.615605"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 12,
+      "city": "Connerton",
+      "latitude": "-38.870747",
+      "longitude": "27.334934"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 8,
+      "city": "Neahkahnie",
+      "latitude": "15.598874",
+      "longitude": "2.22042"
+    },
+    {
+      
+      "isRainy": true,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 17,
+      "city": "Interlochen",
+      "latitude": "-70.717271",
+      "longitude": "100.587496"
+    },
+    {
+      
+      "isRainy": false,
+      "picture": "http://placehold.it/32x32",
+      "temperature": 8,
+      "city": "Cuylerville",
+      "latitude": "-17.607916",
+      "longitude": "-8.881654"
+    },
+        {
+          
+          "isRainy": false,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 14,
+          "city": "Mappsville",
+          "latitude": "-55.158551",
+          "longitude": "-104.65303"
+        },
+        {
+          
+          "isRainy": false,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 4,
+          "city": "Jessie",
+          "latitude": "-28.023738",
+          "longitude": "-6.650599"
+        },
+        {
+          
+          "isRainy": true,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 18,
+          "city": "Riviera",
+          "latitude": "-32.088526",
+          "longitude": "62.221759"
+        },
+        {
+          
+          "isRainy": false,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 7,
+          "city": "Eastmont",
+          "latitude": "58.484835",
+          "longitude": "114.513128"
+        },
+        {
+          
+          "isRainy": false,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 19,
+          "city": "Mahtowa",
+          "latitude": "66.898901",
+          "longitude": "-158.566623"
+        },
+        {
+          
+          "isRainy": true,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 10,
+          "city": "Fairhaven",
+          "latitude": "5.427384",
+          "longitude": "177.271091"
+        },
+        {
+          
+          "isRainy": false,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 18,
+          "city": "Jenkinsville",
+          "latitude": "-12.331488",
+          "longitude": "-114.978396"
+        },
+        {
+          
+          "isRainy": false,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 2,
+          "city": "Greenock",
+          "latitude": "-57.066935",
+          "longitude": "159.758797"
+        },
+        {
+          
+          "isRainy": false,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 16,
+          "city": "Sunwest",
+          "latitude": "-44.389616",
+          "longitude": "170.804679"
+        },
+        {
+          
+          "isRainy": true,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 5,
+          "city": "Chesterfield",
+          "latitude": "-60.053679",
+          "longitude": "70.68358"
+        },
+        {
+          
+          "isRainy": false,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 13,
+          "city": "Vandiver",
+          "latitude": "83.649721",
+          "longitude": "-63.572431"
+        },
+        {
+          
+          "isRainy": false,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 18,
+          "city": "Catharine",
+          "latitude": "59.531964",
+          "longitude": "-163.760878"
+        },
+        {
+          
+          "isRainy": true,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 3,
+          "city": "Kaka",
+          "latitude": "-17.472035",
+          "longitude": "-0.71736"
+        },
+        {
+          
+          "isRainy": true,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 7,
+          "city": "Strykersville",
+          "latitude": "17.287164",
+          "longitude": "-38.708395"
+        },
+        {
+          
+          "isRainy": false,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 18,
+          "city": "Caron",
+          "latitude": "8.241275",
+          "longitude": "-49.728107"
+        },
+        {
+          
+          "isRainy": true,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 9,
+          "city": "Newry",
+          "latitude": "67.179123",
+          "longitude": "92.092205"
+        },
+        {
+          
+          "isRainy": false,
+          "picture": "http://placehold.it/32x32",
+          "temperature": 1,
+          "city": "Celeryville",
+          "latitude": "38.264872",
+          "longitude": "48.59828"
+        }
+      ]
