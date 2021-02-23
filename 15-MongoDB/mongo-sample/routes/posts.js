@@ -2,11 +2,12 @@ var express = require('express');
 var router = express.Router();
 var Post = require('../models/Post');
 
+
 // post lara ait routing işlemlerini burada yapıyorum
 
 
 // ? CREATE
-/* POST post saving */   //! Post Ekleme
+/* POST post saving */   //! Post Ekleme MANUEL
 router.post('/newpost', function (req, res, next) {
   const post = new Post({
     title: 'My new title2 ...',
@@ -23,6 +24,25 @@ router.post('/newpost', function (req, res, next) {
   });
 });
 
+//? CREATE -2
+// Web Api den gelen veriyi veri tabanına kaydetme (en son yaptık) postmanden veri girdik
+router.post('/add', function (req, res) {
+  const post = new Post({
+    title: req.body.title,
+    isActive: req.body.isActive,
+    comments: req.body.comments,
+    meta: req.body.meta
+
+  });
+  post.save((err, data) => {
+    if (err) {
+      res.json(err)
+    } else {
+      res.json(data)
+    }
+  });
+
+})
 
 // ? LİSTELEME
 /* GET post listing. *///!Postları listeleme      
@@ -177,26 +197,8 @@ router.delete('/deleteid2', function (req, res) {
 });
 
 
+
 //? SORTHING
-// Web Api den gelen veriyi veri tabanına kaydetme (en son yaptık) postmanden veri girdik
-router.post('/add', function (req, res) {
-  const post = new Post({
-    title: req.body.title,
-    isActive: req.body.isActive,
-    comments: req.body.comments,
-    meta: req.body.meta
-
-  });
-  post.save((err, data) => {
-    if (err) {
-      res.json(err)
-    } else {
-      res.json(data)
-    }
-  });
-
-})
-
 /* GET sort listing. */ //! İstenilen duruma göre sıralama yaparız
 router.get('/sorting', function (req, res, next) {
   Post.find({}, (error, data) => {
@@ -209,6 +211,19 @@ router.get('/sorting', function (req, res, next) {
   }).sort({ 'meta.favs': 1, title: 'desc' })  //=>1 or 'asc' or 'ascending' (artan sıralmayı ifade eder)
 });                             //=>-1 or 'desc' or 'desending' (azalan sıralamayı ifade eder)
 
+
+//? LİMİT  and  SKIP
+/* GET sort listing. */ //! İstenilen KADAR KAYIT GETİRİR (limit)
+router.get('/limit', function (req, res, next) {
+  Post.find({}, (error, data) => {
+    if (error) {
+      res.send("Beklenmeyen bir hatayla karşılaşıldı...");
+    }
+    else {
+      res.json(data);
+    }
+  }).skip(2).limit(5)    //ilk iki kaydı getirir (Eğer atlayıp kayıt getirsin istenirse limitin önüne skip(atlanmak istenen kayıt))
+});
 
 
 

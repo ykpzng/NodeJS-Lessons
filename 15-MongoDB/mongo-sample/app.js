@@ -10,8 +10,9 @@ var mongoose = require('mongoose');
   .then(() => console.log("Veritabanı bağlantısı başarıyla sağlandı."))
   .catch((error) => console.log("Veritabanı bağlantısı sağlanırken beklenmeyen bir hatayla karşılaşıldı.", error.message)); */
 //!or
-mongoose.connect('mongodb://localhost:27017/mongooseDb', { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
-  ;
+mongoose.connect('mongodb://localhost:27017/mongooseDb', { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true });
+
+
 // mongoose.set('useCreateIndex', true);
 
 mongoose.connection.on('open', () => { console.log("Veritabanı bağlantısı başarıyla sağlandı.") });
@@ -22,6 +23,10 @@ mongoose.connection.on('error', (err) => { console.log("Veritabanı bağlantıs�
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
 var postsRouter = require('./routes/posts');  //posts'u burada içe aktardık
+var authorRouter = require('./routes/author.route');  //author'u burada içe aktardık
+var bookRouter = require('./routes/book.route');  //book'u burada içe aktardık
+
+
 
 var app = express();
 
@@ -35,9 +40,13 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
-app.use('/posts', postsRouter);  // url de burası kullanılıyor
+app.use('/posts', postsRouter);   // posts url ini burada kullanılabilir hale getiriyoruz
+app.use('/authors', authorRouter); //author un url i burada kullanılabilir hale getiriyoruz
+app.use('/books', bookRouter);    //book un url i burada kullanılabilir hale getiriyoruz
+
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
@@ -54,5 +63,6 @@ app.use(function (err, req, res, next) {
   res.status(err.status || 500);
   res.render('error');
 });
+
 
 module.exports = app;
