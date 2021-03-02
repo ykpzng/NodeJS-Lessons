@@ -170,7 +170,7 @@ router.delete('/deleteone', function (req, res) {
 });
 
 
-/*DELETE with findByIdandRemove post deleting. */ //! id ye uyan kaydı siler,(sistem dosyasındaki veriyi silmez) (silinen değeri döner)
+/*DELETE with findByIdandRemove post deleting. */ //! id ye uyan kaydı siler, direk siler (silinen değeri döner) Performansı daha iyidir 
 router.delete('/deleteid', function (req, res) {
   var pstId = '602936f4f14b910ab833cc1d';
   Post.findByIdAndRemove(pstId, (error, data) => {
@@ -183,7 +183,7 @@ router.delete('/deleteid', function (req, res) {
   })
 });
 
-/*DELETE with findByIdandDelete post deleting. */ //! id ye uyan kaydı siler, direk siler (silinen değeri döner)
+/*DELETE with findByIdandDelete post deleting. */ //! id ye uyan kaydı siler,(sistem dosyasındaki veriyi silmez) (silinen değeri döner)
 router.delete('/deleteid2', function (req, res) {
   var pstId = '6029381cd8aade3c44bd4c90';
   Post.findByIdAndDelete(pstId, (error, data) => {
